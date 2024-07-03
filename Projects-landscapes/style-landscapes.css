@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(102, 104, 110),
+    rgb(190, 176, 176),
+    rgb(197, 74, 74)
+  );
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.dropdown {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 16px;
+  color: rgb(219, 212, 212);
+  position: relative;
+}
+
+.dropdown-contents {
+  display: none;
+  position: absolute;
+  color: rgb(219, 212, 212);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+p {
+  text-align: justify;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: center;
+}
+
+.page-name {
+  color: rgb(219, 212, 212);
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.sub-headline {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.post-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: rgb(219, 212, 212);
+  width: auto;
+  height: auto;
+}
+
+.text-post-one {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.image-post-one {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.bike-camera-img {
+  width: 100%;
+  height: auto;
+}
+
+.post-two {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  background-color: rgb(219, 212, 212);
+}
+
+.text-post-two {
+  width: 25%;
+  margin-left: 5%;
+}
+
+.image-post-two {
+  width: 75%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.church-street-img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  color: rgb(219, 212, 212);
+  font-size: 12px;
+  margin-top: 32px;
+}
