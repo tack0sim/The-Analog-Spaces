@@ -77,6 +77,8 @@ a {
   }
 }
 
+/* Burger menu for smaller screens */
+
 @media (max-width: 480px) {
   .burger {
     display: inline-block;
@@ -89,10 +91,9 @@ a {
     display: flex;
     flex-direction: column;
     position: fixed;
+    height: 100%;
     left: -76%;
     width: 75%;
-    height: 50%;
-
     justify-content: center;
     border: solid;
   }
